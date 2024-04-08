@@ -1,5 +1,3 @@
-import cv2
-
 # Read image
 # Detect Objects
 def detect_in_image(img, yolov8_detector):
