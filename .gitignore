@@ -4,4 +4,4 @@ helm_det_env/
 Data/
 Data.zip
 __pycache__/
-video_object_detection.py
+src\detection_libs\video_object_detection.py
