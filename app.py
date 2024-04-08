@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from src.detection_libs.image_object_detection import detect_in_image  # Import the function for image inference
-from src.detection_libs.video_object_detection import detect_in_video  # Import the function for video inference
+# from src.detection_libs.video_object_detection import detect_in_video  # Import the function for video inference
 from src.detection_libs.yolov8 import YOLOv8
 
 model_path = "src/models/model_ver1.onnx"
