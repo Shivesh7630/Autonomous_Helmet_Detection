@@ -1,14 +1,9 @@
 import cv2
-from yolov8 import YOLOv8
-
 
 # Read image
 # Detect Objects
-def detect_in_image(img):
+def detect_in_image(img, yolov8_detector):
     # Initialize yolov8 object detector
-    model_path = "models/model_ver1.onnx"
-    yolov8_detector = YOLOv8(model_path, conf_thres=0.2, iou_thres=0.3)
-    
     boxes, scores, class_ids = yolov8_detector(img)
 
     # Draw detections
